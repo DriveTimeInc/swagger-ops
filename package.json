@@ -1,0 +1,33 @@
+{
+  "name": "swagger-ops",
+  "version": "0.0.1",
+  "description": "Express routing simplificator",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ./lib ./tests",
+    "lintfix": "eslint --fix ./lib ./tests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DriveTimeInc/swagger-ops.git"
+  },
+  "keywords": [
+    "express",
+    "swagger"
+  ],
+  "author": "Steve Konves",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "express": "^4.14.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "superagent": "^3.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DriveTimeInc/swagger-ops/issues"
+  },
+  "homepage": "https://github.com/DriveTimeInc/swagger-ops#readme"
+}
