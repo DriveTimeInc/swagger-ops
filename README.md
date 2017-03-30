@@ -84,7 +84,7 @@ var app = express();
 
 // Create sub app for user routes
 var userApp = express();
-register(userApp, swagger);
+register(userApp, swagger, true);
 
 userApp.op('GetUserBillingInfo', (req, res, next) => {
 	// TODO
