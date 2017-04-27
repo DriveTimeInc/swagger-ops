@@ -1,6 +1,6 @@
 {
   "name": "swagger-ops",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convenience utility for defining Express route handers by Swagger OperationId, rather than by an explicit path and verb",
   "main": "lib/index.js",
   "scripts": {
