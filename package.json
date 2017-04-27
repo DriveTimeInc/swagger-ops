@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint ./lib ./tests",
     "lintfix": "eslint --fix ./lib ./tests",
-    "test": "mocha ./tests",
-    "cover": "cd lib && istanbul cover ../node_modules/mocha/bin/_mocha *.js -R ../tests --coverage"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha ./lib/*.js -R ./tests --coverage"
   },
   "repository": {
     "type": "git",
