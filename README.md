@@ -1,3 +1,7 @@
+[![travis](https://img.shields.io/travis/DriveTimeInc/swagger-ops.svg)](https://travis-ci.org/DriveTimeInc/swagger-ops)
+[![npm](https://img.shields.io/npm/v/swagger-ops.svg)](https://www.npmjs.com/package/swagger-ops)
+[![npm](https://img.shields.io/npm/dm/swagger-ops.svg)](https://www.npmjs.com/package/swagger-ops)
+
 # Swagger Ops
 Convenience utility for defining Express route handers by [Swagger OperationId](http://swagger.io/specification/#operationId), rather than by an explicit path and verb.
 
