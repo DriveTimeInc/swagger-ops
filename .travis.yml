@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.4.7"
+  - "6"
+  - "7"
+install:
+  - npm i
+script:
+  - npm run lint
+  - npm t
