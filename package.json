@@ -1,7 +1,7 @@
 {
   "name": "swagger-ops",
   "version": "0.0.1",
-  "description": "Express routing simplificator",
+  "description": "Convenience utility for defining Express route handers by Swagger OperationId, rather than by an explicit path and verb",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint ./lib ./tests",
